@@ -1,6 +1,5 @@
-#千帆大模型平台
-
-##产品相关链接
+# 千帆大模型平台
+## 产品相关链接
 - [SDK入门（必读）](README.md)
 - [产品文档（必读）](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/Slfmc9dds)
 - [接口在线测试](https://console.bce.baidu.com/tools/#/api?product&#x3D;AI&amp;project&#x3D;%E5%8D%83%E5%B8%86%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%B9%B3%E5%8F%B0&amp;parent&#x3D;%E9%89%B4%E6%9D%83%E8%AE%A4%E8%AF%81%E6%9C%BA%E5%88%B6&amp;api&#x3D;oauth%2F2.0%2Ftoken&amp;method&#x3D;post)

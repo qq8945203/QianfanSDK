@@ -5,7 +5,7 @@
 ### Maven用户
 ```xml
 <dependency>
-  <groupId>com.baidubce</groupId>
+  <groupId>io.github.baidubce</groupId>
   <artifactId>sdc-sdk</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
@@ -19,7 +19,7 @@
   }
 
   dependencies {
-     implementation "com.baidubce:sdc-sdk:1.0.0"
+     implementation "io.github.baidubce:sdc-sdk:1.0.0"
   }
 ```
 
@@ -94,6 +94,7 @@ QianfanApi apiInstance = new QianfanApi(apiClient);
 Iam认证需要使用账户的ak、sk，参考下图获取。
 ![获取IAM AK、SK](doc/08272f6c-26c3-7830-fd91-34ebbd4dc3f7.jpg '获取IAM AK、SK')
 
+> 一个ApiClient可以设置多个鉴权，设置相同的ApiClient会进行覆盖，不同的鉴权优先生效最先配置的鉴权。接口也会根据自身支持的鉴权选择支持的鉴权进行调用。
 ## 接口调用
 以千帆chat接口为例
 ### 同步调用
